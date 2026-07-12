@@ -1,4 +1,4 @@
-Dataset File too large to upload(25MB limit reached)
+Dataset File too large to upload extracted(25MB limit reached)
 
 Overview: Rigveda HyDE RAG Bot (Viprah Vadanti)
 

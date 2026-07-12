@@ -23,7 +23,7 @@ The RAG Workflow:
 Because Large Language Models are prone to prompt injection and rate abuse in public deployments, the notebook builds custom safety utilities directly into the pipeline:
        Prompt Injection Blocker: Regex-based filtering prevents users from bypassing instructions or utilizing standard "jailbreak" patterns.
        Input/Output Sanitization: Strips out structural markers, HTML tags, and malicious syntax to ensure clean interface outputs.
-       Rate Limiting: Implements a token/call bucket mechanism to avoid model overloading during user hosting.Interactive Gradio Interface
+       Rate Limiting: Implements a token/call bucket mechanism to avoid model overloading during user hosting an Interactive Gradio Interface
 
 The notebook wraps the entire system into a polished, front-end Gradio interface featuring two core operational modes:
       Seek Knowledge: The chatbot query terminal where users chat directly with Gemma to find scriptural answers.

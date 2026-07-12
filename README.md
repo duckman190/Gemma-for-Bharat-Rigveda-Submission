@@ -1,4 +1,5 @@
 Overview: Rigveda HyDE RAG Bot (Viprah Vadanti)
+
 This notebook implements a state-of-the-art Retrieval-Augmented Generation (RAG) pipeline designed to serve as a Vedic Scripture scholar. Named "VIPRAH VADANTI", the system allows users to interactively query the ancient text of the Rigveda and receive highly precise, cited answers directly rooted in the scripture.Key Technical HighlightsPowered by Google Gemma 3
 The project leverages the Gemma 3 1B IT (Instruction-Tuned) model as its primary reasoning and generation engine. Despite its lightweight and efficient size (1 Billion parameters), Gemma 3 excels at:
 Contextual Synthesis: Adhering strictly to provided scriptural context while blocking outside hallucinations.

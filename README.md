@@ -1,3 +1,5 @@
+Dataset File too large to upload(25MB limit reached)
+
 Overview: Rigveda HyDE RAG Bot (Viprah Vadanti)
 
 This notebook implements a state-of-the-art Retrieval-Augmented Generation (RAG) pipeline designed to serve as a Vedic Scripture scholar. Named "VIPRAH VADANTI", the system allows users to interactively query the ancient text of the Rigveda and receive highly precise, cited answers directly rooted in the scripture.Key Technical HighlightsPowered by Google Gemma 3

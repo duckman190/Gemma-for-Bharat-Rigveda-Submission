@@ -15,7 +15,7 @@ Embedding Model: Uses all-MiniLM-L6-v2 to vectorize and map text into a semantic
 
 The RAG Workflow:
         User Query: The user inputs a natural language question about the Rigveda.
-        Hypothetical Verse: Gemma generates a "hypothetical" English verse that would ideally answer the query.
+        Initial Verse: Gemma generates a "Initial" English verse that would ideally answer the query.
         Vector Search: The embedding of this generated hypothetical text is calculated and cross-referenced against the precomputed embeddings of 10,402 original Rigveda verses.
         Context Retrieval: The top-matching actual verses (Sanskrit, English, Mandala/Hymn metadata) are extracted.
         Grounded Generation: Gemma receives the true scripture as context, delivering a citation-aware response complete with Mandala, Hymn, and Verse markers.Production-Grade Safety and Security
